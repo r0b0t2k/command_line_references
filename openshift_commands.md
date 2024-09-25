@@ -11,4 +11,6 @@
 ` oc run -it my-app --rm --image registry.access.redhat.com/ubi9/ubi --restart Never --command -- date `
 
 ##### To add environment variables you can add --env= ENVIRONMENT_VAR=myvalue
-` oc run -it my-app --image registry.access.redhat.com/ubi9/ubi --restart Never --env= ENVIRONMENT_VAR=myvalue --command -- date `
+```
+oc run -it my-app --image registry.access.redhat.com/ubi9/ubi --restart Never --env= ENVIRONMENT_VAR=myvalue --command -- date
+```
